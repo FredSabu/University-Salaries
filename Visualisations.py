@@ -5,7 +5,7 @@ import plotly.express as px
 import json
 
 # Load data
-data = pd.read_csv('/Users/Mathi/Desktop/movies_metadata.csv')
+data = pd.read_csv('movies_metadata.csv')
 
 
 
