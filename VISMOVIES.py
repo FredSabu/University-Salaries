@@ -12,14 +12,7 @@ import json
 import ast
 
 # Load data
-data = pd.read_csv('/Users/Mathi/Desktop/movies.csv')
-
-
-# Correct column names based on actual headers in your dataset (basically header=1 is needed)
-data.columns = ['budget', 'original_language', 'original_title', 'overview', 'popularity',
-                'release_date', 'revenue', 'runtime', 'title', 'vote_average',
-                'vote_count', 'bayesian_average', 'genre_list', 'company_list',
-                'country_list', 'language_list', 'cast_list', 'job_name_pairs']
+data = pd.read_csv('movies.csv')
 
 #1. HEATMAP OF CORRELATIONS BETWEEN KEY MOVIE FEATURES
 # Convert columns to numeric as required
