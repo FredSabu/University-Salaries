@@ -20,3 +20,9 @@ This repository contains the notebooks and datasets involved in preprocessing an
 - `ciredits.csv`: The original dataset containing movie credits (NOT INCLUDED DUE TO SIZE)
 
 Link to dataset: https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset
+
+## Contributors
+
+- Fred Sabu
+- Mathi Kumaran
+- Reynold Kwok
